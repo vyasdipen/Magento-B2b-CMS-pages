@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Vyasb2b_Magento>
+      <version>0.1.0</version>
+    </Vyasb2b_Magento>
+  </modules>
+  <global>
+     <models>
+        <magento>
+        <class>Vyasb2b_Magento_Model</class>
+      </magento>
+     </models>
+    <helpers>
+      <magento>
+        <class>Vyasb2b_Magento_Helper</class>
+      </magento>
+    </helpers>
+    <events>
+      <cms_page_load_before> 
+          <observers>
+              <controller_action_layout_load_before_handler>
+                  <type>model</type>
+                  <class>magento/observer</class>
+                  <method>Btobredirections</method>
+                  <args/>
+              </controller_action_layout_load_before_handler>
+        </observers>
+      </cms_page_load_before>
+    </events>
+  </global>
+</config> 
