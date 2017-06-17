@@ -4,7 +4,7 @@ B2B CMS Pages magento extension allows you to restrict access to specific pages 
 Magento B2B CMS pages extension allows you to set access to specific CMS pages for logged in customers only. Not logged in customer will be redirected to login page. Using this extension
 you can restrict Guest users (Not logged in users) to view specific pages. 
 
-#Features:
+# Features:
 1. Not allow guest user to view selected pages
 2. Guest user will be redirected to login page
 3. Only Logged in customer can view selected cms pages
@@ -14,11 +14,11 @@ you can restrict Guest users (Not logged in users) to view specific pages.
 
 
 
-#Prerequisities:
+# Prerequisities:
 - Magento Community Edition (1.7,1.8,1.9.X)
 - Backup of Database
 
-#Installation:
+# Installation:
 1. Download the Extension
 2. Extract the module in your magento's root directory.
 3. It should go in App/code/local folder.
