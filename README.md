@@ -12,8 +12,6 @@ you can restrict Guest users (Not logged in users) to view specific pages.
 5. Restrcit guest user (Visitor) to view your site by selecting home page so when customer will try to access your site will be redirected to login page. To view home page customer has to login.
 6. You Can select multiple CMS Pages
 
-
-
 # Prerequisities:
 - Magento Community Edition (1.7,1.8,1.9.X)
 - Backup of Database
@@ -29,9 +27,11 @@ you can restrict Guest users (Not logged in users) to view specific pages.
 8. Select CMS pages you want to restrict for Not logged in users(Visitors)  and Save.
 9. That's it.
 
+# Developed By:
 * Namespace: Magento 1.x
 * Created by: Vyas Dipen
 [Author's Website:](http://vyasdipen.wordpress.com/)
 
-#NEED HELP?:
+
+# NEED HELP?:
 If you have any questions then you can get in touch with me by [Email](mailto:vyasdipen@aol.com)
