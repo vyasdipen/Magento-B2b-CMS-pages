@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Vyasb2b_Magento>
+            <active>true</active>
+            <codePool>local</codePool>
+         </Vyasb2b_Magento>
+    </modules>
+</config>
